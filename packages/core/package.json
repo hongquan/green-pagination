@@ -1,0 +1,33 @@
+{
+  "name": "@green-pagination/core",
+  "version": "0.0.1",
+  "description": "Compute and generate data for pages",
+  "keywords": [
+    "pagination"
+  ],
+  "author": "Nguyễn Hồng Quân <ng.hong.quan@gmail.com>",
+  "homepage": "https://github.com/hongquan/green-pagination",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "directories": {
+    "test": "__tests__"
+  },
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hongquan/green-pagination.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/hongquan/green-pagination/issues"
+  }
+}
